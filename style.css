@@ -1,0 +1,18 @@
+img{
+width: 100px;
+height: 100px;
+
+}
+
+body{
+grid-template-columns: auto;
+grid-template-rows: auto;
+
+}
+
+.potatis{
+width: 120px;
+
+
+
+}
