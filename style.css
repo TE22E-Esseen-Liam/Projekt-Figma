@@ -5,7 +5,7 @@ display: grid;
 grid-template-columns: 20% auto;
 grid-template-rows: 20% auto;
 background-color: lightgray;
-width: 80%;
+width: 85%;
 margin-bottom: 20px;
 border: 1px solid black;
 
@@ -16,11 +16,25 @@ height: 125px;
 width: 150px;
 }
 
-.potatis{
+/*.potatis{
 padding-left: 1220px;
 height: 150px;
 width: 280px;
-}
+}*/
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  aside img {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    align-items: flex-end;
+  }
 
 
 h1{
@@ -31,7 +45,7 @@ h1{
 
 .Portioner{
 background-color: lightgray;
-width: 40%;
+width: 42.5%;
 text-align: center;
 border: 1px solid black;
 margin-bottom: 20px;
@@ -40,8 +54,9 @@ margin-bottom: 20px;
 .ingredienser{
 background-color: lightgray;
 border: 1px solid black;
-width: 40%;
+width: 42.5%;
 text-align: center;
+margin-bottom: 30px;
 }
 
 .lista{
@@ -51,16 +66,23 @@ text-align: left;
 
 .foralla{
 text-align: left;
-
 }
 
 
 .instruktioner{
 background-color: lightgray;
 border: 1px solid black;
-width: 39%;
+width: 42.5%;
 margin-left: 620px;
+text-align: center;
+}
 
+.gorsahar{
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 42.5%;
+    margin-left: 620px;
+    text-align: center;
 }
 
 
@@ -69,30 +91,23 @@ text-align: center;
 }
 
 
-.pottis{
-width: 150px;
-height: 150px;
+.pottis,
+.mjölk,
+.morot,
+.sylt {
+  width: 270px;
+  height: 150px;
 }
 
-.mjölk{
-width: 150px;
-height: 150px;
-}
-
-.morot{
-    width: 150px;
-    height: 150px;
-}
-
-.sylt{
-    width: 150px;
-    height: 150px;
+.stars{
+width: 270px;
+height: 50px;
 }
 
 
 .smut{
 background-color: lightgray;
-width: 40%;
+width: 42.5%;
 border: 1px solid black;
 text-align: center;
 }
@@ -101,7 +116,7 @@ text-align: center;
 .footer{
 text-align: center;
 background-color: lightgray;
-width: 80%;
+width: 85%;
 border: 1px solid black;
 margin-top: 20px;
 height: 75px;
