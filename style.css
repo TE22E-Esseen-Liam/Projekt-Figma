@@ -35,19 +35,68 @@ width: 40%;
 text-align: center;
 border: 1px solid black;
 margin-bottom: 20px;
-
 }
 
 .ingredienser{
 background-color: lightgray;
-/*margin-right: 1300px;*/
 border: 1px solid black;
 width: 40%;
+text-align: center;
 }
+
+.lista{
+background-color: lightgray;
+text-align: left;
+}
+
+.foralla{
+text-align: left;
+
+}
+
+
+.instruktioner{
+background-color: lightgray;
+border: 1px solid black;
+width: 39%;
+margin-left: 620px;
+
+}
+
 
 .texttop{
 text-align: center;
 }
+
+
+.pottis{
+width: 150px;
+height: 150px;
+}
+
+.mjölk{
+width: 150px;
+height: 150px;
+}
+
+.morot{
+    width: 150px;
+    height: 150px;
+}
+
+.sylt{
+    width: 150px;
+    height: 150px;
+}
+
+
+.smut{
+background-color: lightgray;
+width: 40%;
+border: 1px solid black;
+text-align: center;
+}
+
 
 .footer{
 text-align: center;
@@ -59,7 +108,3 @@ height: 75px;
 
 
 }
-
-/*.instruktioner{
-background-color: lightgray;
-margin-left: 400px;}*/
